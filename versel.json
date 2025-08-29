@@ -1,4 +1,6 @@
 {
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "dist/spa",
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/$1" },
     { "source": "/((?!api|.*\\..*|_next).*)", "destination": "/index.html" }

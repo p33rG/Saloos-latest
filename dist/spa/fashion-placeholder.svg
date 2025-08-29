@@ -1,0 +1,49 @@
+<svg width="400" height="600" viewBox="0 0 400 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fce7f3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="brand-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="600" fill="url(#bg-gradient)"/>
+  
+  <!-- Fashion Figure -->
+  <g transform="translate(200, 300)">
+    <!-- Head -->
+    <circle cx="0" cy="-120" r="25" fill="url(#brand-gradient)" opacity="0.3"/>
+    
+    <!-- Body -->
+    <rect x="-20" y="-95" width="40" height="80" rx="20" fill="url(#brand-gradient)" opacity="0.3"/>
+    
+    <!-- Arms -->
+    <rect x="-45" y="-80" width="20" height="60" rx="10" fill="url(#brand-gradient)" opacity="0.3"/>
+    <rect x="25" y="-80" width="20" height="60" rx="10" fill="url(#brand-gradient)" opacity="0.3"/>
+    
+    <!-- Dress/Skirt -->
+    <path d="M -30 -15 L 30 -15 L 40 60 L -40 60 Z" fill="url(#brand-gradient)" opacity="0.4"/>
+    
+    <!-- Legs -->
+    <rect x="-15" y="60" width="12" height="80" rx="6" fill="url(#brand-gradient)" opacity="0.3"/>
+    <rect x="3" y="60" width="12" height="80" rx="6" fill="url(#brand-gradient)" opacity="0.3"/>
+  </g>
+  
+  <!-- Sparkle decorations -->
+  <g fill="url(#brand-gradient)" opacity="0.6">
+    <circle cx="80" cy="120" r="3"/>
+    <circle cx="320" cy="180" r="2"/>
+    <circle cx="60" cy="300" r="2"/>
+    <circle cx="340" cy="400" r="3"/>
+    <circle cx="100" cy="480" r="2"/>
+    <circle cx="300" cy="520" r="2"/>
+  </g>
+  
+  <!-- AI Generation Text -->
+  <text x="200" y="480" text-anchor="middle" fill="url(#brand-gradient)" font-family="Inter, sans-serif" font-size="14" font-weight="600">AI Generated</text>
+  <text x="200" y="500" text-anchor="middle" fill="url(#brand-gradient)" font-family="Inter, sans-serif" font-size="14" font-weight="600">Fashion Variation</text>
+</svg>
